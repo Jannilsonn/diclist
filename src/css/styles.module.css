@@ -1,0 +1,64 @@
+.header {
+    padding: 10px;
+    border-bottom: 1px dashed #1e3418;
+}
+.article {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px dashed #1e3418;
+}
+
+.menuItem {
+    color: #9d9a9d;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+}
+.menuItem:hover {
+    border-bottom: 2px solid #1e3418;
+}
+.menuItemSelected {
+    color: #9d9a9d;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 2px solid #464146;
+}
+
+.section {
+    padding: 10px;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px inset #1e3418;
+}
+.listItem:hover {
+    background-color:  #1e3418;
+}
+.listItemContent, .listItemIndex {
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.listItemIndex {
+    float: right;
+    text-align: right;
+}
+
+.wordItem {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px inset #1e3418;
+}
+.wordItem p {
+    max-width: 500px;
+    text-align: justify;
+}

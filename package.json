@@ -1,0 +1,16 @@
+{
+  "name": "diclist",
+  "version": "1.0.0",
+  "dependencies": {
+    "fontsource-poppins": "^3.1.5",
+    "next": "^10.0.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Jannilsonn"
+}
