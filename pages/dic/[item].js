@@ -23,7 +23,7 @@ function Index({data}) {
 }
 
 export async function getServerSideProps(context) {
-    const res = await fetch(`${process.env.VERCEL_URL}/api/dic/${context.params.item}`)
+    const res = await fetch(`${process.env.API_URL}/dic/${context.params.item}`)
     const data = await res.json()
     
     return {
