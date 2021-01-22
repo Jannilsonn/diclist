@@ -4,14 +4,21 @@ Obs: Não foi criado um CRUD, apenas uma demonstração com dados salvos no pró
 
 Estrutura
 
-O componente Header contém o Guide que por sua vez tem as opções de navegação;
-Recentes(History): Pesquisas recentes
-Dicionário(DicUser): Palavras para formação de um dicionário pessoal
-Lista(List): Listas simples
-Nota(Note): Anotações básicas
-Section Apresenta o conteúdo da página;
-Ao clicar em uma das opções do Guide, você é redirecionado para sua página onde é exibido uma lista dos itens salvos.
-Escolhendo um item abrirá sua página onde consta as informações referente ao selecionado.
+- O componente Header contém o Guide que por sua vez tem as opções de navegação;
+
+    - Recentes(History): Pesquisas recentes
+
+    - Dicionário(DicUser): Palavras para formação de um dicionário pessoal
+
+    - Lista(List): Listas simples
+
+    - Nota(Note): Anotações básicas
+
+- Section Apresenta o conteúdo da página;
+
+    - Ao clicar em uma das opções do Guide, você é redirecionado para sua página onde é exibido uma lista dos itens salvos.
+
+    - Escolhendo um item abrirá sua página onde consta as informações referente ao selecionado.
 
 
 
